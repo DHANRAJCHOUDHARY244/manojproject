@@ -1,0 +1,70 @@
+.grid-column {
+  display: grid;
+
+  justify-content: center;
+  grid-gap: 0
+}
+
+.grid-row {
+  display: grid;
+
+  grid-gap: 0;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: black;
+  cursor: default;
+}
+
+input[type="text"]::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+grid-input-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two columns with equal width */
+  gap: 20px;
+}
+input[type="date"]{
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: black;
+  cursor: default;
+}
+@import url(https://fonts.googleapis.com/css?family=Denk+One);
+.rotingtxt{
+	-webkit-transform: rotate(331deg);
+	-moz-transform: rotate(331deg);
+	-o-transform: rotate(331deg);
+	transform: rotate(335deg);
+	font-size: 10em;
+	color: rgba(255, 5, 5, 0.17);
+	position: absolute;
+	font-family: 'Denk One', sans-serif;
+	text-transform:uppercase;
+	padding-left:1%;
+  padding-top: 5%;
+  z-index: 1;
+}
+.bg{
+  background-image: url('./bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
